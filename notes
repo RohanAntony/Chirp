@@ -1,0 +1,13 @@
+ng-app   - initialises the segment of angular application
+ng-controller - defines the controller that has access to given structure
+ng-model - performs a two way data binding(used on input[type='text'],textarea)
+ng-bind  - performs one way data binding(used on p,h1 and other simple direct text)
+ng-repeat - performs a for-each loop on a given array
+  ng-class-odd="'odd'"  - adds 'odd' class to every odd element in array
+  ng-class-even="'even'"  - adds 'even' class to every even element in array
+
+
+standard controller structure
+app.controller('controllerName',function($scope){
+  //perform operations on $scope
+})
